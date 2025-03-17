@@ -1,0 +1,13 @@
+plugins {
+  id 'groovy'
+  id "com.katalon.gradle-plugin" version "0.1.2"
+}
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+	// https://mvnrepository.com/artifact/com.kazurayam/subprocessj
+	implementation group: 'com.kazurayam', name: 'subprocessj', version: '0.3.8'
+}
